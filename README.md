@@ -1,14 +1,13 @@
-# Loan_Analysis
-### Loan Collection Analysis: Impact of Call Responses on Loan Recovery
+# Loan Collection Analysis: Impact of Call Responses on Loan Recovery
 # Project Overview
 This project analyzes the relationship between call center engagement and loan recovery rates. It aims to determine how answered calls influence repayment while identifying the impact of unanswered calls (busy, congested, no answer, answer machine) on outstanding debts.
 
 # Objectives
 - To assess the effectiveness of call engagement in loan recovery.
-- To analyze borrower demographics (state, occupation) in relation to call responses.
+- To analyze borrower demographics (state, occupation) with call responses.
 - To identify trends and patterns that can optimize loan recovery strategies.
 # Data Sources
--Call Logs Dataset (dbo.analysis_fairmoney)
+- Call Logs Dataset (dbo.analysis_fairmoney)
 - Contains details of borrower calls categorized into answered and unanswered calls.
 - Borrower Information Dataset (fairmoney_details)
 - Includes borrower demographics such as state, occupation, and loan details (amount disbursed, repaid, and outstanding).
@@ -23,7 +22,7 @@ This project analyzes the relationship between call center engagement and loan r
     - Measured how distinct answered calls correlated with increased loan repayment.
     - Compare the impact of unanswered calls on outstanding debts.
 # Findings & Insights
-A significant portion of loan borrowers did not answer recovery calls, impacting collection rates.
+Many loan borrowers did not answer recovery calls, impacting collection rates.
 Certain states had a higher proportion of unanswered calls, leading to increased loan default risks.
 Borrowers in specific occupations (e.g., Professionals, Artisans, and Agriculture workers) had lower engagement rates, requiring alternative follow-up strategies.
 # Recommendations
